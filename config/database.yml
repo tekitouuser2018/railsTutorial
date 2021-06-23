@@ -92,6 +92,8 @@ default: &default
   username: postgres
   password: password
   pool: 5
+  # host: <%= ENV.fetch('DATABASE_HOST') { 'localhost' } %>
+  # port: <%= ENV.fetch('DATABASE_PORT') { 5432 } %>
 
 development:
   <<: *default
