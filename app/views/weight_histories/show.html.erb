@@ -2,12 +2,12 @@
 
 <p>
   <strong>User:</strong>
-  <%= @weight_history.user %>
+  <%= @weight_history.user.name %>
 </p>
 
 <p>
   <strong>Weight:</strong>
-  <%= @weight_history.weight %>
+  <%= weight_comment(@weight_history.weight) %>
 </p>
 
 <p>
