@@ -2,5 +2,7 @@
 
 <% if @user %>
     <%= @user.name %><br>
-    <%= @user.age %>才
+    <%= @user.age %>才<br>
+
+    <%= link_to "戻る", users_path %>
 <% end %>
